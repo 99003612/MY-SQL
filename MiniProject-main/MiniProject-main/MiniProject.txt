@@ -1,0 +1,59 @@
+Player Class
+
+-- playerID -OK
+
+-- dateOfBirth (util.Date or LocalDate)-OK
+
+-- skill (batting ,bowling, allrounder, wicketkeeper)-OK
+
+-- teamId - ok
+
+-- noOfMatches -ok
+
+-- wickets - ok
+
+-- nationality - ok
+
+-- runs - ok
+
+ 
+
+Team Class
+
+-- teamid-ok
+
+-- team name-ok
+
+-- ownername-ok
+
+-- coachname-ok
+
+-- playerid(captainid) //optional
+
+-- 
+
+ 
+
+Expected --
+
+Must: use the layered approach (DAO -Model - Main)
+
+Use database
+
+1. Date to be inserted into table
+
+ 
+
+2. Search (Retrieve)
+
+   i/p  -- Player name or playerId
+
+   o/p --   Player name - Team name - Coach name - Age - Captain (Optional)
+
+3. Update the Player and Team
+
+4. View all the players
+
+5. View all players (based on Team)
+
+6. View all players (based on skill & Team)
