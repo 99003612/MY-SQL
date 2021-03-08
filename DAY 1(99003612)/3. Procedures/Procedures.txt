@@ -1,0 +1,7 @@
+DELIMITER $$
+create procedure INSERTR (IN cname varchar(20),   IN age VARCHAR(2))  
+begin  
+insert into customer values(cname,age);  
+end;  
+END$$
+DELIMITER ;
